@@ -39,5 +39,5 @@
 
 您可以通过以下链接查看并访问网页的完整 HTML 文件：
 
-[查看成语文生图展示 HTML 文件](https://github.com/SokachCarpediem/Oeasy_1/blob/main/%E6%96%87%E7%94%9F%E5%9B%BE.html)
+[查看成语文生图展示 HTML 文件](https://sokachcarpediem.github.io/Oeasy_1/%E6%96%87%E7%94%9F%E5%9B%BE.html)
 
