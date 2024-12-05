@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>成语文生视频展示</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .frame-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .frame {
+            width: 30%;
+            border: 2px solid #ccc;
+            padding: 10px;
+            background-color: #fff;
+        }
+        video {
+            width: 100%;
+            max-width: 640px;
+            height: auto;
+        }
+        .music-control {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>成语: 画龙点睛</h1>
+    <p>拼音: huà lóng diǎn jīng</p>
+    <p>描述: 画龙时，最后点上眼睛，使其栩栩如生。</p>
+    
+    <div class="frame-container">
+        <div class="frame">
+            <h3>关键帧 1: 张僧繇画龙</h3>
+            <img src="assets/frame1.jpg" alt="关键帧1">
+            <p>张僧繇开始在墙壁上绘制龙的轮廓。</p>
+        </div>
+        <div class="frame">
+            <h3>关键帧 2: 初步画龙</h3>
+            <img src="assets/frame2.jpg" alt="关键帧2">
+            <p>龙的身体和形态逐渐显现。</p>
+        </div>
+        <div class="frame">
+            <h3>关键帧 3: 添加细节</h3>
+            <img src="assets/frame3.jpg" alt="关键帧3">
+            <p>张僧繇开始添加龙的鳞片和细节。</p>
+        </div>
+        <div class="frame">
+            <h3>关键帧 4: 画眼睛</h3>
+            <img src="assets/frame4.jpg" alt="关键帧4">
+            <p>最后，张僧繇点上龙的眼睛，使其栩栩如生。</p>
+        </div>
+    </div>
+
+    <h2>文生视频展示</h2>
+    <video controls>
+        <source src="assets/video.mp4" type="video/mp4">
+        您的浏览器不支持视频播放。
+    </video>
+
+    <h3>背景音乐与解说</h3>
+    <audio controls class="music-control">
+        <source src="assets/narration.mp3" type="audio/mp3">
+        您的浏览器不支持音频播放。
+    </audio>
+    
+    <h3>过程简述</h3>
+    <p>为制作此文生视频，我们首先通过文生图工具生成了“画龙点睛”成语的关键帧，描述了画龙的每一个重要步骤。然后，我们将这些关键帧按照顺序组合成视频，并为其添加了解说音频和背景音乐，力求让成语的寓意通过视频生动呈现。</p>
+</body>
+</html>
