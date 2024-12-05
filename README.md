@@ -18,4 +18,5 @@
 
 您可以通过以下链接查看并访问网页的完整 HTML 文件：
 
-[查看三体网页 HTML 文件](.https://sokachcarpediem.github.io/Oeasy_1/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1.html)
+[查看三体网页 HTML 文件](https://sokachcarpediem.github.io/Oeasy_1/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1.html)
+
